@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="tests">
-  <test name="TestChrome">
-   <parameter name="myBrowser" value="chrome"/>
-    <classes>
-      <class name="com.start.projectname.MyOrangeHRMClass"/>
-    </classes>
-  </test> <!-- Test -->
 
 <test name="TestIE">
    <parameter name="myBrowser" value="ie"/>
@@ -14,4 +8,10 @@
     </classes>
   </test> <!-- Test -->
   
+  <test name="TestIE2">
+   <parameter name="myBrowser" value="ie"/>
+    <classes>
+        <class name="com.start.projectname.MyOrangeHRMClass"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
